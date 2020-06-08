@@ -1,0 +1,72 @@
+@media screen and (max-device-width: 480px){
+	.left-main, .right-main {
+		float: none;
+		width: 100%;
+	}
+
+	.left-main {
+		position: relative;
+		top: 30%;
+		height: 70%;
+		text-align: center;
+	}
+
+	.left-main img {
+
+	}
+
+	.right-main {
+		height: 30%;
+		display: block;
+		position: relative;
+		top: -70%;
+		font-size: 32pt;
+		text-align: center;
+
+		
+	}
+	.right-main h2 {
+		margin: 0px 0px 0px 0px;
+		position: relative;
+		top: 50%;
+	}
+
+	.biography, .hobby {
+		float: none;
+		width: 100%;
+		font-size: 36pt;
+	}
+}
+
+@media screen and (max-device-width: 600px){
+	.biography, .hobby {
+		font-size: 28pt;
+	}
+}
+
+@media screen and (max-device-width: 400px){
+	.row1 div, .row2 div {
+	display: block;
+	float: none;
+	width: 100%;
+	height: 50%;
+	} 
+
+	.row1, .row2 {
+		height: 50;
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 760px){
+	header{
+		font-size: 10pt;
+	}
+
+	.right-main {
+		font-size: 10pt
+	}
+
+}
+
